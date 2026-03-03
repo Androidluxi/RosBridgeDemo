@@ -1,0 +1,35 @@
+# Python 虚拟环境
+.venv/
+venv/
+
+# ROS2/colcon 构建输出
+build/
+install/
+log/
+
+# 通用编译产物
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.out
+
+# CMake 相关
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode / 编辑器配置（按需保留）
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
